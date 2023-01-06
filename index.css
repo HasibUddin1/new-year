@@ -42,11 +42,12 @@
 .failure {
     display: flex;
     align-items: center;
+    margin: 50px 0;
 }
 
 .failure-text {
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .failure-header {
@@ -81,46 +82,92 @@
 .image-add {
     margin-left: 100px;
 }
+
 /* Plan section design */
-.plans{
+.plans {
     display: flex;
     justify-content: space-around;
+    margin: 0 150px;
 }
-.plan-header{
+
+.plan-header {
     text-align: center;
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
 }
-.web{
+
+.web {
     text-align: center;
 }
-.java{
+
+.java {
     text-align: center;
 }
-.smoke{
+
+.smoke {
     text-align: center;
 }
-.ecom{
+
+.ecom {
     text-align: center;
 }
-.web-head{
+
+.web-head {
     font-size: 30px;
     margin: 20px 0;
 }
-.java-head{
+
+.java-head {
     font-size: 30px;
     margin: 20px 0;
 }
-.smoke-head{
+
+.smoke-head {
     font-size: 30px;
     margin: 20px 0;
 }
-.ecom-head{
+
+.ecom-head {
     font-size: 30px;
     margin: 20px 0;
 }
-.plan-text{
+
+.plan-text {
     font-size: 20px;
     color: rgb(65, 65, 65);
+}
+
+/* positive section design */
+.positive {
+    background-image: url('images/watch.png');
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 100px 150px;
+}
+
+.positive-head {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.positive-text {
+    padding: 50px 50px;
+}
+
+.positive-btn {
+    padding: 20px 40px;
+    background-color: white;
+    border: none;
+    color: #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.color-overlay {
+    background-image: url('images/gradient2.png');
+    background-repeat: no-repeat;
 }
