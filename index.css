@@ -42,7 +42,7 @@
 .failure {
     display: flex;
     align-items: center;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .failure-text {
@@ -87,12 +87,14 @@
 .plans {
     display: flex;
     justify-content: space-around;
-    margin: 0 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
 }
 
 .plan-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 100px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -142,7 +144,7 @@
 .positive {
     background-image: url('images/watch.png');
     height: 50vh;
-    width: 100%;
+    width: 80%;
     background-repeat: no-repeat;
     margin: 100px 150px;
 }
@@ -170,4 +172,52 @@
 .color-overlay {
     background-image: url('images/gradient2.png');
     background-repeat: no-repeat;
+}
+/* footer section design */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #141414;
+    color: white;
+}
+.future{
+    padding: 100px 0;
+}
+.subscribe{
+    padding: 100px 0;
+}
+.future-header{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.future-text{
+    margin-bottom: 20px;
+}
+.future-email{
+    margin-bottom: 20px;
+}
+.future-phone{
+    margin-bottom: 20px;
+}
+.subscribe-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.subscribe-email{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid white;
+    background-color: #141414;
+    color: white;
+}
+.subscribe-btn{
+    padding: 15px 30px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    color: #F15B22;
+    border-radius: 5px;
+    font-size: 15px;
 }
