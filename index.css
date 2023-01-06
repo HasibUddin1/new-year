@@ -1,9 +1,11 @@
-*{
+* {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
-.header{
+
+/* header content design */
+.header {
     background-image: url('images/banner/banner2.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -11,19 +13,22 @@
     height: 100vh;
     text-align: right;
 }
-.header-text{
+
+.header-text {
     font-size: 50px;
     font-weight: 700;
     padding-top: 25vh;
     padding-right: 200px;
 }
-.header-paragraph{
+
+.header-paragraph {
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 200px;
 }
-.header-btn{
+
+.header-btn {
     padding: 20px 25px;
     margin-right: 200px;
     background-color: #F15B22;
@@ -31,4 +36,91 @@
     color: white;
     border-radius: 5px;
     font-size: 20px;
+}
+
+/* failure section design */
+.failure {
+    display: flex;
+    align-items: center;
+}
+
+.failure-text {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.failure-header {
+    font-size: 40px;
+}
+
+.failure-paragraph {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.para-one {
+    margin-top: 20px;
+}
+
+.para-two {
+    margin-top: 5px;
+}
+
+.para-three {
+    margin-top: 5px;
+}
+
+.para-four {
+    margin-top: 5px;
+}
+
+.para-five {
+    margin-top: 5px;
+}
+
+.image-add {
+    margin-left: 100px;
+}
+/* Plan section design */
+.plans{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.web{
+    text-align: center;
+}
+.java{
+    text-align: center;
+}
+.smoke{
+    text-align: center;
+}
+.ecom{
+    text-align: center;
+}
+.web-head{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.java-head{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.smoke-head{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.ecom-head{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.plan-text{
+    font-size: 20px;
+    color: rgb(65, 65, 65);
 }
